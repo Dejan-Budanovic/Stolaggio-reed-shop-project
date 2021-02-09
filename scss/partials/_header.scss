@@ -1,0 +1,28 @@
+header {
+    border-bottom: 2px solid black;
+}
+.logo {
+    /*border: 1px solid red;*/
+    background-image: url("./img/stolaggio-logo.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:100px;
+    h1 {
+        text-indent: -9999px;
+    }
+}
+.navbar-nav {
+    /*border: 1px solid blue;*/
+    margin: 0 auto;
+    li {
+        padding: 5px 10px;
+        a {
+            font-size: 22px;
+        }
+        &:not(:last-child) {
+          margin-right: 30px;
+        }
+    }
+}

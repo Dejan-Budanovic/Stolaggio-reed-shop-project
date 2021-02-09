@@ -1,0 +1,76 @@
+footer {
+    margin-top: 30px;
+    .footer-top {
+        background-color: $footer-bkg;
+        height: 200px;
+        a {
+            transition: ease-in-out 0.2s;
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+    .footer-bottom {
+        position: relative;
+        background-color: $footer-bkg;
+        color: $footer-color;
+        height: 70px;
+        border-top: 2px solid $footer-color;
+        small {
+            display: block;
+            width: fit-content;
+            line-height: 70px;
+            margin: 0 auto;
+        }
+        .soc-nav {
+            position: absolute;
+                left: 50%;
+                top: -42%;
+                transform: translateX(-50%);
+                
+            ul {
+                display: flex;
+                
+                li {
+                    &:not(:last-child) {
+                        margin-right:20px;
+                }
+                }
+                .soc-nav-btn {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 10px;
+                    text-indent: -9999px;
+                    transition: ease-in-out 0.7s;
+                    &:hover {
+                        opacity: 0.95;
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                #fb {
+                    background-image: url("img/facebook.png");
+                }
+                #in {
+                    background-image: url("img/instagram.png");
+                }
+                #yt {
+                    background-image: url("img/youtube.png");
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-top {
+        height: 60px;
+        .footer-navigation {
+            display: none;
+        }
+    }
+}
