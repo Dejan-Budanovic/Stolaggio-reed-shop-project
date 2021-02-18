@@ -13,7 +13,7 @@
                     "id":3,
                     "parent-id":1,
                     "name":"clarinet reed 1",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "description": "clarinet reed 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
                     "img1": "../img/product.jpg",
                     "img2": "../img/product2.jpg",
                     "price": 4.49,
@@ -23,7 +23,7 @@
                     "id":4,
                     "parent-id":1,
                     "name":"clarinet reed 2",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "description": "clarinet reed 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
                     "img1": "../img/product.jpg",
                     "img2": "../img/product2.jpg",
                     "price": 3.20,
@@ -33,7 +33,7 @@
                     "id":5,
                     "parent-id":1,
                     "name":"clarinet reed 3",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "description": "clarinet reed 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
                     "img1": "../img/product.jpg",
                     "img2": "../img/product2.jpg",
                     "price": 5.16,
@@ -42,8 +42,8 @@
                 {
                     "id":6,
                     "parent-id":1,
-                    "name":"clarinet reed 4",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "name":"clarinet reed 54",
+                    "description": "clarinet reed 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
                     "img1": "../img/product.jpg",
                     "img2": "../img/product2.jpg",
                     "price": 1.89,
@@ -99,3 +99,6 @@
 
     }
 ]
+    
+
+ 
